@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+html,body,p{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+header {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 0.84rem;
+    display: flex;
+    padding: 0 0.2rem;
+}
+header div:nth-child(1) {
+    line-height: 0.44rem;
+}
+header div:nth-child(1) img {
+    display: inline-block;
+    width: 0.44rem;
+    height: 0.44rem;
+}
+header div:nth-child(2) {
+    width: 17.75rem;
+    height: 0.84rem;
+
+}
+header div:nth-child(3)  {
+    width: 0.64rem;
+    line-height: 0.44rem;
+}
+header div:nth-child(3) img {
+    display: inline-block;
+    width: 0.44rem;
+    height: 0.44rem;
+    margin-left: 0.2rem;
+}
+.one {
+    width: 100%;
+    height: 3.4rem;
+    border-top: 1px solid rgb(246,246,246);
+}
+.one > img {
+    display: block;
+    width: 3.4rem;
+    height: 3.4rem;
+    margin: 0 auto;
+}
+.b2 {
+    width: 100%;
+    height: 1.58rem;
+    padding: 0.3rem 0 0.1rem 0;
+    border-top: 1px solid rgb(246,246,246);
+}
+.b21 {
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    padding-left: 0.2rem;
+}
+.b211 {
+    width: 18.03rem;
+    height: 0.7rem;
+}
+.name {
+
+    height: 0.35rem;
+    font-size: 0.3rem;
+    display: block;
+    font-weight: 500;
+    word-wrap: break-word;
+    font-family: Arial, Verdana, sans-serif;
+}
+.price {
+
+    height: 0.35rem;
+    font-size: 0.3rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #ff5722;
+    font-family: Arial, Verdana, sans-serif;
+}
+.b212 {
+    position: relative;
+    width: 0.8rem;
+    height: 0.48rem;
+    padding-left: 0.1rem;
+    padding-right: 0.22rem;
+}
+.b212 > img {
+    position: absolute;
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.b22 {
+
+    height: 0.3rem;
+    margin:0.18rem 0.2rem 0 0.2rem;
+}
+.b22 > p {
+    font-size: 0.22rem;
+    font-weight: normal;
+    word-wrap: break-word;
+    font-family: Arial, Verdana, sans-serif;
+    display: block;
+    color: #b4b4b4;
+}
+.a1 {
+    width: 100%;
+    height: 0.87rem;
+    padding: 0.2rem 0.2rem 0 0.2rem;
+    position: relative;
+}
+.a2 {
+    display: block;
+    position: absolute;
+    width: 1.3rem;
+    height: 0.67rem;
+}
+.a2 > p {
+    width: 100%;
+    text-align: center;
+    margin-right: 0.2rem;
+    border: 1px solid rgb(246,246,246);
+    background-color:rgb(242,242,242) ;
+    padding: 0 0.3rem;
+    font-size: 0.22rem;
+    line-height: 0.6rem;
+    color: rgb(153,153,153);
+}
+.c1 {
+    width: 100%;
+    height: 5.51rem;
+    margin-top: 0.3rem;
+    background-color: rgb(236,236,236);
+}
+.c3 {
+    width: 100%;
+    height: 0.69rem;
+}
+ .c3 p {
+    color: rgb(153,153,153);
+    height: 0.59rem;
+    font-size: 0.25rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+ .one {
+     width: 100%;
+     height: 4.82rem;
+     padding: 0 0.5rem;
+ }
+ .swiper-slide img {
+     display: block;
+     width: 4.2rem;
+     height: 4.2rem;
+ }
+ /*.one-1 {*/
+     /*width: 100%;*/
+     /*height: 4.42rem;*/
+     /*padding: 0.1rem auto 0.2rem;*/
+ /*}*/
+ /*.one-2 {*/
+     /*width: 17.7rem;*/
+     /*height: 4.42rem;*/
+     /*display: flex;*/
+ /*}*/
+ /*.one-2 img {*/
+     /*width: 4.42rem;*/
+     /*height: 4.42rem;*/
+ /*}*/
+/*.one-2 img:nth-child(2),.one-2 img:nth-child(3) {*/
+    /*margin: 0 0.12rem;*/
+/*}*/
+ /*---------------------------------------------------*/
+.b5 {
+    width: 100%;
+    height: 0.96rem;
+}
+ul,li {
+    list-style-type: none;
+    margin: 0;
+}
+ul {
+    display: flex;
+    width: 100%;
+    height: 0.96rem;
+}
+li {
+    position: relative;
+    flex: 1;
+    height: 0.96rem;
+    padding: 0.28rem 0;
+    display: list-item;
+}
+li > a {
+    width: 100%;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #b4b4b4;
+}
+.aa >  img {
+    width: 100%;
+}
+.cc {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 0.89rem;
+    padding: 0;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+.bb {
+    width: 4.7575rem;
+    height: 0.89rem;
+    flex: 1;
+    padding: 0.12rem 0;
+}
+.bb a:hover {
+    text-decoration: none;
+}
+.bb > a > div {
+    width: inherit;
+    height: 0.65rem;
+    text-align: center;
+}
+.bb > a > div >img {
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.bb > a >div > p {
+    list-style-position: outside;
+    list-style-type: none;
+    font-size: 0.22rem;
+    line-height: 0.176rem;
+    display: block;
+    color: #999;
+    text-decoration: none;
+}
+.what {
+    width: 100%;
+    height: 0.89rem;
+}

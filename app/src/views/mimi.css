@@ -1,0 +1,165 @@
+/*小米商城整体CSS布局*/
+* {
+    box-sizing:border-box;
+}
+html,body,div,header,p,.wrapper {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.wrapper {
+    /*overflow-x: hidden;*/
+    /*overflow-y: hidden;*/
+}
+header {
+    width:100%;
+    height: 2.6901rem;
+    position: relative;
+}
+header img {
+    width: 100%;
+    height: 2.6901rem;
+    position: absolute;
+}
+.search {
+    display: block;
+    width: 100%;
+    height: 0.93rem;
+    padding-bottom: 0.1rem;
+}
+.search-bottom {
+    width: 97%;
+    height: 0.1rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid  #ccc;
+    border-right: 1px solid #ccc;
+}
+.search-1 {
+    width: 100%;
+    height: 0.84rem;
+}
+.search-1 a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 0.74rem;
+    margin-left: 0;
+    line-height: 0.74rem;
+    padding: 0.2rem 0.3rem 0.12rem 0.3rem;
+}
+.search-1 a input {
+    display: block;
+    position: absolute;
+    height: 0.42rem;
+    line-height: 0.42rem;
+    color: #999;
+    width: 96%;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    border: none;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    background-size: 0.4rem 0.4rem;
+    padding-left: 0.4rem;
+}
+.swiper-slide img {
+    width: 100%;
+    height: 3.6rem;
+}
+ #kuan {
+    width: 100%;
+    height: 3.6rem;
+}
+.one {
+    width: 100%;
+    height: 3.26rem;
+    background-color: #f5f5f5;
+}
+.one-1 {
+    width: 100%;
+    padding: 0.1rem 0;
+}
+.two {
+    width: 100%;
+    height: 2.06rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+.two-1 {
+    width: 100%;
+    height: 2.06rem;
+    padding: 0.3rem 0;
+}
+.two-2 {
+    display: flex;
+    line-height: 1.45rem;
+    width: 100%;
+}
+.img  > a > img {
+    width: 2.50rem;
+    line-height: 1.45rem;
+}
+.info {
+    display: block;
+    width: 100%;
+    height: 1.24rem;
+    margin-right: 0.2rem;
+}
+.name {
+    display: block;
+    line-height: 0.35rem;
+    font-size: 0.3rem;
+    word-wrap: break-word;
+    margin-bottom: 0.1rem;
+    font-family: Arial, Verdana, sans-serif;
+}
+.brief {
+    display: block;
+    line-height: 0.34rem;
+    font-size: 0.26rem;
+    color: #969696;
+    word-wrap: break-word;
+    margin-bottom: 0.12rem;
+    font-family: Arial, Verdana, sans-serif;
+}
+.price {
+    display: block;
+    line-height: 0.33rem;
+    font-size: 0.28rem;
+    word-wrap: break-word;
+    color: #f56a00;
+    font-family: Arial, Verdana, sans-serif;
+}
+footer {
+    width: 100%;
+    height: 0.9rem;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    background-color: #ffffff;
+}
+footer a:nth-child(n) {
+    flex: 1;
+    text-decoration: none;
+}
+
+footer a:nth-child(1) p {
+    color: rgb(240,70,20);
+}
+footer a div img {
+    display: block;
+    margin: 0 auto;
+    width: 0.4rem;
+    height: 0.4rem;
+}
+footer a div p {
+    display: block;
+    font-size: 0.22rem;
+    color: #999;
+    text-align: center;
+
+}
+.what {
+    width: 100%;
+    height: 0.89rem;
+}
